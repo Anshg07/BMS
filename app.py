@@ -3,6 +3,8 @@ import pickle
 import pandas as pd
 import numpy as np
 
+st. set_page_config(layout="wide")
+
 pipe = pickle.load(open('pipe.pkl','rb'))
 
 fat = ['Item_Fat_Content_0', 'Item_Fat_Content_1']
